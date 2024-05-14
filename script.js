@@ -15,7 +15,8 @@ window.onload = function () {
       imageUrl: "images/startScreen.jpg",
       imageHeight: 350,
       imageAlt: "Start Screen",
-      inputLabel: "Selecione a dificuldade",
+      inputLabel:
+        "*   Não permita que os alienígenas da Ansiedade, Estresse, Bornout e, o pior, o Coração Partido invada a GCINFRA. Selecione a dificuldade:",
       allowOutsideClick: false,
       footer:
         "<div style='font-weight: bold;color:#7066E0'>Keyboard arrow keys navigate——space bar shoots</div>",
@@ -470,7 +471,7 @@ function gameOver() {
       imageHeight: 350,
       imageAlt: "Game Over",
       timer: 5000,
-      confirmButtonText: '<i class="fa fa-thumbs-up"></i> Não deu. Jogue de novo!',
+      confirmButtonText: '<i class="fa fa-thumbs-up"></i> TENTE NOVAMENTE!',
     }).then(() => {
       location.reload();
     });
